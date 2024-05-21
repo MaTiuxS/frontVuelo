@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titulo">Vuelos</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header> 
+        <div class="logoCel">
+            <img src="./Materials/svg/Logo_FH.svg" id="logo">
+        </div> 
+        <div class="inicioMovil" id = "inicioMov" onclick= "cambiaMenu()">
+            <a class="navText" >Menu +</a>
+        </div>
+        <div class="contNav" id = "barraNav">
+            <img src="./Materials/svg/Logo_FH.svg" id="logoGral">
+            <nav class="navbar">
+                <a class="navText" id="botInicio" href="./index.html">
+                    <img class="Ico" id="IcoCel" src="./Materials/svg/home.svg">
+                    <p class="navText2">Inicio</p>
+                </a>
+            <a class="navText" id="botVuelos" href="./vuelos.html" id="vuelos">
+                <img class="Ico" src="./Materials/svg/flights.svg">
+                    <span><p class="navText2" >Vuelos</p></span>
+            </a>
+            <a class="navText" id="botPaquetes" href="./paquetes.html">
+                <img class="Ico" id="paquetes" src="./Materials/svg/paquetes.svg">
+                    <span><p class="navText2">Paquetes</p></span>
+            </a>
+        <a class="navText" id="botOfertas" href="./ofertas.html">
+            <img class="Ico" id="ofertas" src="./Materials/svg/pasajes.svg">
+                <span><p class="navText2">Ofertas</p></span>
+            </a>    
+        </nav>
+        <nav class="navbarDer">
+            <a class="navText" id="botRegistro" href="./registro.html">
+                <img class="Ico" id="registro" src="./Materials/svg/registro.svg">
+                    <span><p class="navText2">Regístrate</p></span>
+            </a>
+            <a class="navText" id="botIngreso" href="./ingreso.html">
+                <img class="Ico" id="ingreso" src="./Materials/svg/access.svg">
+                    <span><p class="navText2">Ingresar</p></span>
+                </a> 
+            </nav>
+        </div>
+</div>
+</header>
+<main>
+    <section>
+        <div class="navegacion">
+             <p class = "textTitNav">Usted esta aquí: </p>
+                <a class = "textLinkNav" href="./index.html">Inicio</a>
+                <span class = "textSpanNav"> &#187 </span>
+             <a class = "textLinkNav" href="./vuelos.html">Vuelos</a>
+        </div>
+        <div class="base">
+            <div class="busquedas">
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="contenedor_section_oferta text-center">
+        <h2>Ofertas</h2>
+        <p>Promociones, descuentos, ofertas al mejor precio</p>
+        <div class="flex_imagenes_vuelos text-center">
+            <div class="flex_imagenes_vuelo">
+                <div>
+                    <h3>¿Quieres un lugar para relajarte?</h3>
+                    <p>Mira nuestros mejores sitios de reposo para ti.</p>
+                    <button class="btn btn-primary">Descrubre mas</button>
+                </div>
+                <div class="contenedor_imagenes">
+                    <img class="img_oferta" src="./Materials/viaje-section-oferta.jpg" alt="Viaje oferta">
+                </div>
+            </div>
+            <div class="flex_imagenes_vuelo">
+                <div>
+                    <h3>¿Quieres sorprender a mamá?</h3>
+                    <p>Mira nuestros mejores para poner feliz a mamá.</p>
+                    <button class="btn btn-primary">Descrubre mas</button>
+                </div>
+                <div class="contenedor_imagenes">
+                    <img class="img_oferta" src="./Materials/viaje-oferta-mama.jpg" alt="Viaje oferta">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenedor categorias">
+        <h2 class="text-center categoria_h2">Categorías de Vuelos</h2>
+
+        <div class="listado-categorias">
+            <div class="categoria">
+                <img src="./Materials/pasillo.jpg" alt="Imagen Categoría" />
+                <a href="#">Turista</a>
+            </div>
+
+            <div class="categoria">
+                <img src="./Materials/medio.jpg" alt="Imagen Categoría" />
+                <a href="#">Privado</a>
+            </div>
+
+            <div class="categoria">
+                <img src="./Materials/ventana.jpg" alt="Imagen Categoría" />
+                <a href="#">Charter</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenido-principal contenedor ">
+        <h2 class="text-center">Nuestros Vuelos mas recomendados</h2>
+        
+        <div class="listado-viajes">
+            <div class="viajes_producto">
+                <img src="./materials/viaje-egipto.jpg" alt="Imagen Destino" >
+
+                <div class="texto-producto">
+                    <h3>Egipto</h3>
+                    <p>Con Propaganda Airlines, tu comodidad es nuestra prioridad. Disfruta de asientos amplios en nuestros modernos aviones. Cada asiento está equipado con una pantalla de entretenimiento personal que ofrece una amplia variedad de películas, series para que tu vuelo pase volando.</p>
+                    <a class="btn_vuelos" href="#">Mas detalles...</a>
+                </div>
+            </div>
+
+            <div class="viajes_producto">
+                <img src="./materials/peru.jpg" alt="Imagen Destino" >
+
+                <div class="texto-producto">
+                    <h3>Peru</h3>
+                    <p>Viajar a Perú es una experiencia enriquecedora, llena de historia, cultura y paisajes impresionantes. </p>
+                    
+                    <a class="btn_vuelos" href="#">Mas detalles...</a>
+                </div>
+            </div>
+
+            <div class="viajes_producto">
+                <img src="./materials/chile.jpg" alt="Imagen Destino" >
+
+                <div class="texto-producto">
+                    <h3>Chile</h3>
+                    <p>Chile, con su diversidad de paisajes que van desde desiertos áridos hasta glaciares, es un destino fascinante para cualquier viajero</p>
+                    
+                    <a class="btn_vuelos" href="#">Mas detalles...</a>
+                </div>
+            </div>
+
+            <div class="viajes_producto">
+                <img src="./materials/argentina.jpg" alt="Imagen Destino" >
+
+                <div class="texto-producto">
+                    <h3>Argentina</h3>
+                    <p>Argentina, con su vibrante cultura, deliciosa gastronomía, es un destino ideal para cualquier viajero.</p>
+                 
+                    <a class="btn_vuelos" href="#">Mas detalles...</a>
+                </div>
+            </div>
+
+            <div class="viajes_producto">
+                <img src="./materials/Bolivia.jpg" alt="Imagen Destino" >
+
+                <div class="texto-producto">
+                    <h3>Bolivia</h3>
+                    <p>Bolivia es un destino fascinante que ofrece una mezcla única de culturas indígenas, paisajes impresionantes y ciudades vibrantes.</p>
+                    
+                    <a class="btn_vuelos" href="#">Mas detalles...</a>
+                </div>
+            </div>
+
+            <div class="viajes_producto">
+                <img src="./materials/brasil.jpg" alt="Imagen Destino" >
+
+                <div class="texto-producto">
+                    <h3>Brasil</h3>
+                    <p>Brasil es un país vibrante y diverso, conocido por sus playas espectaculares, su exuberante selva amazónica y su rica cultura.</p>
+                    
+                    <a class="btn_vuelos" href="#">Mas detalles...</a>
+                </div>
+            </div>
+
+        </div> 
+    </section>
+</main>
+
+<footer>
+    <div class="topFooter">
+        <div class="topIzquierdo">
+            <img src="./Materials/Logo_FH.png" alt="logo_FlightHandler" class="logoGral">
+            <p class="redes">Encuentranos y síguenos en nuestras redes.</p>
+        </div>
+        <div class="topDerecho">
+            <a href="http://www.facebook.com" target="_blank">
+            <img class="iconos" src="./Materials/svg/icons/icon_Facebook.svg" alt="IconFacebook"></a>
+            <a href="faceb.ookcom" target="_blank">
+            <img class="iconos" src="./Materials/svg/icons/icon_Instagram.svg" alt="icon_Instagram"></a>
+            <a href="facebook.com" target="_blank">
+            <img class="iconos" src="./Materials/svg/icons/Icon_Linkedin.svg" alt="Icon_Linkedin"></a>
+            <a href="facebook.com" target="_blank">
+            <img class="iconos" src="./Materials/svg/icons/icon_Twietter.svg" alt="icon_Twietter"></a>
+            <a href="facebook.com" target="_blank">
+            <img class="iconos" src="./Materials/svg/icons/Icon_WhatsApp.svg" alt="Icon_WhatsApp"></a>
+        </div>
+    </div>
+    <div class="botFooter">
+        <div class="botFooterIzq">
+            <h4>América Latina</h4>
+            <a href="buscarArg"><img class="flags" src="./Materials/svg/flags/argentina.svg" alt="vuelosArg">Encuentra vuelos por Argentina.</a>
+            <a href="buscarBra"><img class="flags" src="./Materials/svg/flags/brasil.svg" alt="vuelosBra">Encuentra vuelos a Brasil.</a>
+            <a href="buscarBo"><img class="flags" src="./Materials/svg/flags/bolivia.svg" alt="vuelosBol">Encuentra vuelos a Bolivia.</a>
+            <a href="buscarChi"><img class="flags" src="./Materials/svg/flags/chile.svg" alt="vuelosChi">Encuentra vuelos a Chile.</a>
+            <a href="buscarCol"><img class="flags" src="./Materials/svg/flags/colombia.svg" alt="vuelosCol">Encuentra vuelos a Colombia.</a>
+            <a href="buscarEcu"><img class="flags" src="./Materials/svg/flags/Ecuador.svg" alt="vuelosEcua">Encuentra vuelos a Ecuador.</a>
+        </div>
+        <div class="botFooterIzq">
+            <h4>América del Norte y Caribe</h4>
+            <a href="buscarCan"><img class="flags" src="./Materials/svg/flags/canada.svg" alt="vuelosCan">Encuentra vuelos a Canadá.</a>
+            <a href="buscarCub"><img class="flags" src="./Materials/svg/flags/cuba.svg" alt="vuelosCub">Encuentra a Cuba.</a>
+            <a href="buscarUsa"><img class="flags" src="./Materials/svg/flags/estadosunidos.svg" alt="vuelosUsa">Encuentra vuelos a Est. Unidos.</a>
+            <a href="buscarMex"><img class="flags" src="./Materials/svg/flags/mexico.svg" alt="vuelosMex">Encuentra vuelos a México.</a>
+            <a href="buscarPrc"><img class="flags" src="./Materials/svg/flags/puertorico.svg" alt="vuelosPrc">Encuentra vuelos a Puerto Rico.</a>
+            <a href="buscarVen"><img class="flags" src="./Materials/svg/flags/venezuela.svg" alt="vuelosVen">Encuentra vuelos a Venezuela.</a>
+        </div>
+        <div class="botFooterIzq">
+            <h4>Europa</h4>
+            <a href="buscarGer"><img class="flags" src="./Materials/svg/flags/alemania.svg" alt="vuelosGer">Encuentra vuelos a Alemania.</a>
+            <a href="buscarEsp"><img class="flags" src="./Materials/svg/flags/espania.svg" alt="vuelosEsp">Encuentra vuelos a España.</a>
+            <a href="buscarFra"><img class="flags" src="./Materials/svg/flags/francia.svg" alt="vuelosFra">Encuentra vuelos a Francia.</a>
+            <a href="buscarGrb"><img class="flags" src="./Materials/svg/flags/Inglaterra.svg" alt="vuelosGrb">Encuentra vuelos a R. Unido.</a>
+            <a href="buscarIta"><img class="flags" src="./Materials/svg/flags/italia.svg" alt="vuelosIta">Encuentra vuelos a Italia.</a>
+            <a href="buscarRus"><img class="flags" src="./Materials/svg/flags/rusia.svg" alt="vuelosRus">Encuentra vuelos a Rusia.</a>
+            
+        </div>
+        <div class="botFooterIzq">
+            <h4>Asia</h4>
+            <a href="buscarChn"><img class="flags" src="./Materials/svg/flags/china.svg" alt="vuelosChn">Encuentra vuelos a China.</a>
+            <a href="buscarSkor"><img class="flags" src="./Materials/svg/flags/surcorea.svg" alt="vuelosSkor">Encuentra vuelos a Corea.</a>
+            <a href="buscarInd"><img class="flags" src="./Materials/svg/flags/india.svg" alt="vuelosInd">Encuentra vuelos a India.</a>
+            <a href="buscarJap"><img class="flags" src="./Materials/svg/flags/japon.svg" alt="vuelosJap">Encuentra vuelos a Japón.</a>
+            <a href="buscarMal"><img class="flags" src="./Materials/svg/flags/malasia.svg" alt="vuelosMal">Encuentra vuelos a Malasia.</a>
+            <a href="buscarTrq"><img class="flags" src="./Materials/svg/flags/turquia.svg" alt="vuelosTrq">Encuentra vuelos a Turquia.</a>
+        </div>
+        <div class="botFooterDer">
+            <h4>+Info</h4>
+            <a href="contacto.html">Contacto.</a>
+            <a href="quienes.html">Quienes somos.</a>
+            <a href="rrhh.html">Recursos humanos.</a>
+            <a href="disclaimer.html">Disclaimer.</a>
+            <a href="condiciones.html">Ver Condiciones.</a>
+        </div>
+    </div>
+</footer>
+<script src="./funciones.js"></script>
+<script src="./Js/carrusel.js"></script>
+</body>
+</html>

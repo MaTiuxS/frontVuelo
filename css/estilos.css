@@ -1,0 +1,1130 @@
+@media only screen and (min-width: 720px) {
+
+    .fondo {
+        display: flex;
+        position: absolute;
+        width: 98.75%;
+        height: 1500px;
+        background: linear-gradient(rgb(255,255,255), rgb(214, 229, 248));
+        z-index: -100;
+    }
+    
+.logoCel {
+    display: none;
+}    
+
+#carro1 {
+    margin-top: -75px;
+}
+
+#carro2 {
+    margin-top: -300px;
+}
+
+.logoGral {
+    display:inherit;
+    z-index: 4;
+    width: 180px;
+    filter: invert(100%);
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+main {
+    justify-content: center;
+}    
+
+.busquedas {
+    display: flex;
+    width: 85%;
+    height: 25%;
+    border-radius: 45px;
+    background-color: white;
+    opacity: 90%;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+.navegacion {
+    display:flex;
+    position: relative;
+    width: 100%;
+    height: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 10px 10px 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.base {
+    display:flex;
+    width: 98%;
+    height:auto;
+    border-radius: 25px;
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,    
+    rgba(0, 0, 0, 0.1) 0px 10px 10px 0px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.h1Nav {
+    color: rgb(72, 167, 245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    transition-property: font-size;
+    transition-duration: 0.5s;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 40%;
+    text-shadow: 2px 2px #dbdbdb;
+}
+
+#finder {
+    background-image: url("../Materials/photo1.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    width: 100%;
+    height: 400px;
+    padding-bottom: 120px;
+    display: none; /*ver aquí */
+    justify-content: center;
+}
+
+.contNav {
+    display: flex;
+    position: relative;
+    justify-content:space-between;
+    background-color: rgb(56, 135, 240);
+    height: 100px;  
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.Ico {
+    display: flex;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    filter:invert(100%);
+}
+
+.navbar {
+    display:flex;
+    position: relative;
+    width: 37%;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbarDer {
+    display:flex;
+    position: relative;
+    width: 43%;
+    height:100px;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.navText {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    transition-duration: 0.5s;
+}
+.navText:hover {
+    background-color: rgb(135, 176, 229);
+}
+
+.navText:active {
+    background-color: rgb(178, 201, 231);
+}
+.navText2 {
+    display: flex;
+    position: relative;
+    margin-top: 3px;
+    padding-top: 1px; 
+}
+
+
+nav {
+    background-color: rgb(56, 135, 240);
+    margin: 0%;
+}
+
+.textTitNav {
+    padding-left: 20px;
+    padding-right: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color:rgb(63, 157, 219);
+    font-weight: bold;
+}
+
+.textLinkNav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size: 10px;
+    text-decoration: none;
+    padding-right: 2px;
+}
+
+.textSpanNav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size: 10px;
+    padding-right: 2px;
+}
+
+.botonBuscar {
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 80px;
+    background-color: rgb(56, 135, 240);
+    color:rgb(255, 255, 255);
+    border-radius: 45px;
+    z-index: 5;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.5) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.5) 0px 5px 5px 0px;
+}
+
+.botonBuscar:hover {
+    background-color: rgb(63, 143, 248);
+}
+
+.botonBuscar:active {
+    background-color: rgb(63, 143, 220);
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.2) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.2) 0px 10px 10px 0px;
+}
+
+.spanBuscar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    font-style: oblique;
+    text-decoration: none;
+}
+
+.spanBuscar:active {
+    font-size: 25px;
+}
+.inicioMovil {
+    display: none;
+}
+
+.textoBusquedas {
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.enColumnas {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: aqua;
+    opacity: 90%;
+    width: 150px;
+    height: 100px;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: grey;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin: 2px;
+}
+
+.inputBusquedas {
+    width:140px;
+}
+
+#baseRegistro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#register {
+    display: flex;
+    flex-direction: column;
+    border-color: rgb(56,135,240);
+    padding: 2px;
+    margin: 10px;
+    justify-content: center;
+}
+
+input {
+    border-color: rgb(56,135,240);
+    border-radius: 12px;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 3px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding: 2px;
+    margin-left: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+
+form {
+    border-radius: 12px;
+    background-color: rgb(56,135,240);
+    opacity: 90%;
+    margin-top: 10px;
+    width: auto;
+    justify-content: center;
+}
+
+#botonEnviar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255,255,255);
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 70px;
+    width: 100px;
+}
+
+
+  .gallery-cell:before {
+    display: block;
+    content: counter(gallery-cell);
+    line-height: 10px;
+    font-size: 80px;
+    color: white;
+  }
+
+  .dentrode {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 5px;
+    filter: opacity(70%);
+    z-index: 2;
+  }
+
+  .dentrode :hover {
+    filter: opacity(90%);
+  }
+
+  .offer {
+    color:rgb(255,255,255);
+    font-size: large;
+    z-index: 3;
+  }
+
+  #ofertas {
+    border-radius: 20px;
+  }
+
+  .titulosMedianos {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: rgb(56, 135, 240);
+    margin-left: 8px;
+  }
+
+  #menor {
+    display: none;
+  }
+
+  #baseCar {
+    width: 100%;
+    height:auto;
+    border-radius: 25px;
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 10px 10px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+    #ajustada {
+    padding-top: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    }
+
+    .card-1 {
+        display: flex;
+        width: 150px;
+        height: 150px;
+        object-fit:contain;
+    }
+
+    .iframeCarr {
+        display: flex;
+        border: none;
+        width: 85%;
+        height: 750px;
+        padding: 2px;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 5px;
+        margin-left: 7%;
+        background-color: transparent   ;
+    }
+
+    #findFrame {
+        height: 200px;
+        margin-top: -15px;
+        margin-bottom: 30px;
+        align-self: flex-start;
+    }
+
+    .searcher{
+        margin-top: 5px;
+        display: block;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 2px;
+        align-content:center;
+    }
+    
+    .selTipoViaje {
+        display: flex;
+        justify-items: left;
+        background-color: rgb(255, 255, 255);
+        padding: 0%;
+    }
+
+    .selectores {
+        color:rgb(56, 135, 240);
+        margin: 1px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;  
+    }
+
+    .radioB {
+        margin-left: 90px;
+        margin-right: 0px;
+        padding: 0px;
+        width: 12px;
+    }
+
+    .tipoViaje {
+        display: flex;
+        padding: 0px;
+        margin-top: 15px;
+        margin-left: 6.5%;
+    }
+
+    footer {
+        width: 100%;
+        height: 300px;
+        border-style: solid;
+        border-top: 1px;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        border-color:rgb(0,0,0);
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
+    .topFooter {
+        display: flex;
+        width: 100%;
+        height: 20%;
+        margin-left: 0px;
+        margin-right: 0px;
+        background-color: rgb(135, 147, 161);
+    }
+
+    .topIzquierdo {
+        display: flex;
+        width: 72%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .topDerecho {
+        display: flex;
+        width: 28%;
+        height: 100%;
+        justify-content: center;
+    }
+    
+    .redes {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+    }
+
+    .iconos {
+        margin-top: 15px;
+        width: 30px;
+        height: auto;
+        filter:invert(100%);
+        border-radius: 15px;
+    }
+
+    .iconos:hover {
+        width: 28px;
+        height: auto;
+        margin-top: 16px;
+    }
+
+    .topDerecho > a {
+        width: 20px;
+        padding-right: 30px;
+    }
+
+    .botFooter {
+        display: flex;
+        width: 100%;
+        height: 80%;
+        background-color: rgb(235,235,235);
+    }
+    
+    .botFooterIzq {
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        width: 20%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border-right: 2px rgb(255, 255, 255);
+    }
+
+    .botFooterIzq > a {
+        padding: 2px;
+        font-size: 12px;
+        cursor: pointer;
+        text-decoration: none; 
+        color: rgb(53, 53, 53);
+        margin-left: 15px;
+    }
+
+    .botFooterDer > a {
+        padding:2px;
+        font-size: 12px;
+        cursor: pointer;
+        text-decoration: none; 
+        color: rgb(53, 53, 53);
+        margin-left: 5px;
+        margin-bottom: 2px;
+    }
+
+    .botFooterIzq > a:hover {
+        font-size: 11.75px;
+        color: rgb(90, 90, 90);
+    }
+
+    .botFooterDer > a:hover {
+        font-size: 11.75px;
+        color: rgb(90, 90, 90);
+    }
+
+    .botFooterIzq > h4 {
+        color:rgb(75, 75, 75);
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    
+    .botFooterDer {
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        width: 20%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .botFooterDer > h4 {
+        color:rgb(56,135,240);
+        margin-left: 8px;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    .flags {
+        width: 17px;
+        padding-right: 5px;
+        align-self: center;
+
+    }
+}
+
+ 
+
+/* Finaliza estilo Desktop.*/
+
+
+
+@media screen and (max-width:700px) {
+
+    .botonBuscar {
+        width: 60px;
+        height: 40px;
+    }
+
+    .h1Nav {
+        font-size: 35px;
+    }
+
+    #celuIda {
+        max-width: 650px;
+    }
+    
+    #celuIdaVuelta {
+        max-width: 650px;
+        height: 700px;
+    }
+
+    
+}
+
+
+/* Inicia estilo mobile 1*/
+
+@media only screen and (max-width:720px){
+
+    .logoCel {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(56, 135, 240);
+        width: 100%;
+        height: 50px;
+        margin-bottom: 2px;
+    }
+
+    #logo {
+        filter: invert(100%);
+        height: 95%;
+    }
+
+    .busquedas {
+    display: block;
+    }
+
+    .spanBuscar {
+        font-size: 13px;
+    }
+
+.navegacion {
+    display:none;
+    position: relative;
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 10px 10px 0px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.base {
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 10px 10px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    padding: 5px;
+    }
+
+.h1Nav {
+    display: none;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-style: oblique;
+
+}
+
+#finder {
+    display: none;
+    height: 300px;
+    width: 98%;
+    justify-content: center;
+    background-color: rgb(56, 135, 240);
+    border-radius: 15px;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-right: 6px;
+
+}
+.contNav {
+    display: none;
+    flex-direction: column;
+}
+.Ico {
+    display: none;
+}
+.navbar {
+    display:block;
+    background-color: rgb(56,135,240);
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.navbarDer {
+    display:block;
+    background-color: transparent;
+    position: relative;
+    width: 100%;
+    justify-content:flex-start;
+    flex-direction: column;
+
+}
+.navText {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    padding: 2px;
+    background-color: rgb(56, 135, 240);
+    width: 100%;
+    transition-duration: 0.5s
+}
+
+.navText:hover{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+.navText2 {
+    height: 30px;
+    align-content: center;
+    padding: 5px;
+}
+
+.inicioMovil {
+    display: flex;
+    background-color: rgb(56, 135, 240);
+    width: 100%;
+    z-index: 5;
+    height: 40px;
+    align-items: center;
+    padding-left: 6px;
+    transition-duration: 0.5s;
+}
+.inicioMovil:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.inicioMovil:hover > a {
+    color: black;
+    font-weight: bold;
+    background-color: aliceblue;
+    user-select:none ;  
+}
+.inputBusquedas {
+    width:140px;
+}
+
+#baseRegistro {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#register {
+    display: flex;
+    flex-direction: column;
+    border-color: rgb(56,135,240);
+    padding: 2px;
+    margin: 10px;
+}
+
+input {
+    border-color: rgb(56,135,240);
+    border-radius: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 3px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding: 2px;
+    margin-left: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+
+form {
+    border-radius: 12px;
+    background-color: rgb(56,135,240);
+    opacity: 90%;
+    margin-top: 10px;
+    width: auto;
+}
+
+#botonEnviar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255,255,255);
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#botonEnviar:hover {
+    background-color: rgb(235,235,235);
+}
+
+.textTitNav {
+    padding-left: 20px;
+    padding-right: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color:rgb(63, 157, 219);
+    font-weight: bold;
+}
+.textLinkNav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size: 10px;
+    text-decoration: none;
+    padding-right: 2px;
+}
+#celuIda {
+    max-width: 650px;
+}
+
+#celuIdaVuelta {
+    max-width: 650px;
+    height: 700px;
+}
+
+.logoGral {
+    display:none;
+}
+
+#ofertas {
+
+    border-radius: 20px;
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 10%;
+  }
+
+  .dentrode {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 2px;
+    filter: opacity(70%);
+    z-index: 2;
+  }
+
+  .titulosMedianos {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    color: rgb(56, 135, 240);
+    margin-left: 8px;
+    text-align: center;
+  }
+
+  #menor {
+    display: none;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .iframeCarr {
+    display: flex;
+    border: none;
+    margin-top: -45px;
+    width: 100%;
+    height: 500px;
+    padding: 2px;
+    }
+
+#movil {
+    height: 400px;
+    margin-bottom: 5px;
+}
+
+#findFrame {
+    height: 495px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    width: 100%;
+    z-index: 2;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0%;
+}
+
+.tipoViaje {
+    margin-top: 0px;
+    display: block;
+    flex-direction: column;
+}
+
+.searcher {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    height: max-content;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+    
+}
+}
+
+/* Vuelos  */
+.contenedor_section_oferta {
+    margin: 0 190px;
+}
+.contenedor_imagenes {
+    width: 100px;
+    height: 100px;
+}
+.flex_imagenes_vuelos {
+    display: flex;
+    margin: 20px;
+    gap: 30px;
+}
+.flex_imagenes_vuelo {
+    display: flex;
+    gap: 35px;
+}
+.img_oferta {
+    border: none;
+    max-width: 100px;
+    border-radius: 15px;
+}
+.section_grid {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.categorias {
+    padding: 50px 0;
+    margin-bottom: 35px;
+}
+.categoria {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 400px;
+}
+.categoria_h2 {
+    margin-bottom: 30px;
+}
+@media (min-width: 768px) { 
+    .categoria {
+        margin-bottom: 0;
+    }
+}
+.categoria img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.categoria a {
+    text-align: center;
+    display: block;
+    padding: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+.categoria a:hover {
+    background-color: #a8b4bb;
+    color: #FFFFFF;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+@media (min-width: 768px) { 
+    .listado-categorias {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+.contenido-principal {
+    padding-top: 50px;
+    margin-bottom: 35px;
+}
+@media (min-width: 768px) { 
+    .listado-viajes {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        gap: 20px;
+    }
+    .viajes_producto:nth-child(1) {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    .viajes_producto:nth-child(1) img {
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .viajes_producto:nth-child(2) {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .viajes_producto:nth-child(2) img,
+    .viajes_producto:nth-child(3) img {
+        height: 350px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .viajes_producto:nth-child(3) {
+        grid-column-start: 4;
+        grid-column-end: 7;
+    }
+    .viajes_producto:nth-child(4) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .viajes_producto:nth-child(5) {
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+    .viajes_producto:nth-child(6) {
+        grid-column-start: 5;
+        grid-column-end: 7;
+    }
+}
+
+
+
+.viajes_producto {
+    background-color: #a8b4bb;
+    margin-bottom: 2rem;
+}
+@media (min-width: 768px) { 
+    .viajes_producto {
+        margin-bottom: 0;
+    }
+}
+.viajes_producto:last-of-type {
+    margin-bottom: 0;
+}
+
+.texto-producto {
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2rem;
+}
+.texto-producto h3 {
+    margin: 0;
+}
+.texto-producto p {
+    margin: 0 0 .5rem 0;
+}
+.texto-producto .precio {
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+.btn_vuelos {
+    background-color: rgba(119, 119, 119, 0.941);
+    display: block;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color .3s ease-out ;
+    text-align: center;
+    border: none;
+    width: 100%;
+}
+.btn_vuelos:hover {
+    background-color: #939d9e;
+    cursor: pointer;
+}
+
